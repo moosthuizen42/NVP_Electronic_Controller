@@ -26,10 +26,10 @@ Oxygen supply or Oxygen bottle interfaces. |
 ## 
 
 
-[a link](#pcb-pressure-monitoring)
+[a link](#pcb-mounted-pressure-monitoring)
 
 
 
-# PCB-mounted pressure monitoring {: #pcb-pressure-monitoring }
+# PCB mounted pressure monitoring
 
 
