@@ -13,7 +13,7 @@ Inside this repository are the following resources:
 This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
 
-## Features
+## Core Features
 
 - Gas supply on/off push-buttons
 - Push-button input of desired inspired oxygen proportion (FiO2)
@@ -22,6 +22,11 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 - Electrical control of inspired oxygen proportion actuator
 - Electrical control of airway pressure actuator
 - Powered by consumer-grade USB power bank or cell-phone charger
+
+
+## Core Features
+
+
 
 
 
@@ -36,12 +41,10 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 
 ## NVS external interface requirements {: #external-interface-requirements }
 
-| Interface        | ID           | Requirement  | Applicability |
+| Interface | ID | Requirement  | Applicability |
 | ------------- |-------------| -----|
-| I.1: Oxygen supply | R.I.1 | All gas connectors and hoses must use standard non-interchangeable connectors
-and be colour coded according to recognised medical standards. | Not applicable to controller |
-|| R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall
-Oxygen supply or Oxygen bottle interfaces. | 
+| I.1: Oxygen supply | R.I.1 | All gas connectors and hoses must use standard non-interchangeable connectors and be colour coded according to recognised medical standards. | Not applicable to controller |
+|| R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. | 
 
 ## 
 
