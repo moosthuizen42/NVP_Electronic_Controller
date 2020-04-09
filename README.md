@@ -16,7 +16,7 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 ## Core Features
 
 - Gas supply on/off push-buttons
-- Push-button input of desired inspired oxygen proportion (FiO2)
+- Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>)
 - Push-button input of desired continuous airway pressure
 - LED feedback of actual airway pressure
 - Electrical control of inspired oxygen proportion actuator
@@ -46,7 +46,7 @@ The controller design outlined in this repository is based on the following docu
 
 LED arrays provide feedback for the following metrics:
 
-1. Desired inspired oxygen proportion (FiO2)
+1. Desired inspired oxygen proportion (FiO<sub>2</sub>)
 2. Desired airway pressure
 3. Current airway pressure
 
@@ -58,18 +58,18 @@ Provision is made on the PCB for either 5mm through-hole, 3mm through-hole or 06
 
 ### Desired inspired oxygen propoprtion
 
-The NVS specification calls for inspired oxygen proportion (FiO2) to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed for this purpose.
+The NVS specification calls for inspired oxygen proportion (FiO<sub>2</sub>) to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed for this purpose.
 
-Feedback for actual FiO2 is not considered.
+Feedback for actual current FiO<sub>2</sub> is not considered.
 
 
 ### Desired airway pressure
 
-The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH2O. Arbitrary intervals of 5 cmH2O results in 5 LEDs.
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O. Arbitrary intervals of 5 cmH2O results in 5 LEDs.
 
 ### Actual current airway pressure
 
-The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH2O, and for a maximum over-pressure of 40cmH<sup>2</sup>0. A pressure monitoring range of 0cmH<sup>2</sup>0 to 40cmH<sup>2</sup>0 is considered. A 9-LED array provides feedback in increments of 5cmH<sup>2</sup>0.
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O, and for a maximum over-pressure of 40cmH<sub>2</sub>0. A pressure monitoring range of 0cmH<sub>2</sub>0 to 40cmH<sub>2</sub>0 is considered. A 9-LED array provides feedback in increments of 5cmH<sub>2</sub>0.
 
 
 ## Power
