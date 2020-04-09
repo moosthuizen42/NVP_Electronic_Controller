@@ -26,7 +26,7 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 
 ## Documents
 
-1. [National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
+[1. National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
 
 
 
