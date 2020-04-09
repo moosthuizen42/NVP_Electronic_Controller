@@ -26,8 +26,10 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 
 ## Documents
 
-[1. National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
+The controller design outlined in this repository is based on the following documentation:
 
+1. [National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
+2. 
 
 
 
@@ -56,13 +58,18 @@ Provision is made on the PCB for either 5mm through-hole, 3mm through-hole or 06
 
 ### Desired inspired oxygen propoprtion
 
-The NVS specification calls for inspired oxygen proportion to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed.
+The NVS specification calls for inspired oxygen proportion (FiO2) to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed for this purpose.
+
+Feedback for actual FiO2 is not considered.
 
 
-### Desired inspired oxygen propoprtion
+### Desired airway pressure
 
-The NVS specification calls for inspired oxygen proportion to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed.
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH2O. Arbitrary intervals of 5 cmH2O results in 5 LEDs.
 
+### Actual current airway pressure
+
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH2O, and for a maximum over-pressure of 40cmH<sup>2</sup>0. A pressure monitoring range of 0cmH<sup>2</sup>0 to 40cmH<sup>2</sup>0 is considered. A 9-LED array provides feedback in increments of 5cmH<sup>2</sup>0.
 
 
 ## Power
