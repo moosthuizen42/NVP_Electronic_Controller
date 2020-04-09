@@ -1,6 +1,6 @@
 # NVP Electronic Controller
 
-An extremely-configurable, ready-to-manufacture electronic controller for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020.
+A highly-configurable, ready-to-manufacture electronic controller for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
 
 
 Inside this repository are the following resources:
@@ -24,16 +24,59 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 - Powered by consumer-grade USB power bank or cell-phone charger
 
 
-## Core Features
+## Documents
+
+1. [National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
 
 
 
 
 
+# Sub-system overview
+
+
+
+## Microcontroller
+
+
+
+## LED feedback
+
+LED arrays provide feedback for the following metrics:
+
+1. Desired inspired oxygen proportion (FiO2)
+2. Desired airway pressure
+3. Current airway pressure
+
+
+LEDs are arranged in vertical rows, placed within clearly-deliniated labelled sections. Each LED is laballed with its discrete value. This eliminates the need for any seperate labelling or faceplate.
+
+Provision is made on the PCB for either 5mm through-hole, 3mm through-hole or 0603 (1608 metric) surface-mount LEDs.
+
+
+### Desired inspired oxygen propoprtion
+
+The NVS specification calls for inspired oxygen proportion to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed.
+
+
+### Desired inspired oxygen propoprtion
+
+The NVS specification calls for inspired oxygen proportion to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed.
 
 
 
 ## Power
+
+Input power is provided by a USB power bank or cell-phone charger. Most end users are expected to have at least one of these consumer-grade devices already in their possession, and failing this, they are cheaply and easily sourced elsewhere.
+
+
+A consumer-grade USB supply eliminates the need for on-board AC/DC conversion or 5V voltage regulation. Two configurations are possible:
+
+1. USB charger only
+2. USB charger, connected to USB power bank
+
+A back-up power period of 30 minutes or more is given by the NVS requirement specification, and therefore the second power configuration is recommended. Power use of the controller will depend on the exact configuration. The product of the 0.5 hour requirement and typical controller current draw (for a given configuration) will provide the battery bank cappacity requirement.
+
 
 
 
