@@ -63,7 +63,7 @@ The controller design outlined in this repository is based on the following docu
 ## Pressure sensing
 
 
-## LED feedback
+## LED displays
 
 LED arrays provide feedback for the following metrics:
 
@@ -91,6 +91,21 @@ The NVS specification calls for airway pressure to be set within a range of 5 to
 ### 3. Actual current airway pressure
 
 The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O, and for a maximum over-pressure of 40 cmH<sub>2</sub>0. A pressure monitoring range of 0 cmH<sub>2</sub>0 to 40 cmH<sub>2</sub>0 is considered. A 9-LED array provides feedback in increments of 5 cmH<sub>2</sub>0.
+
+
+## Actuators
+
+Provision is made for control of actuators with the intent of being non-prescriptive in mechanical design. Three actuators are accomodated:
+
+1. Airway pressure control actuator
+2. FiO<sub>2</sub> actuator
+3. Flow control actuator
+
+
+Actuator outputs can be configured in one of two modes:
+
+- Positive/negative DC, intended for on-off solenoid actuation.
+- Stepper motor control, intended for control valve actuation.
 
 
 ## Power
