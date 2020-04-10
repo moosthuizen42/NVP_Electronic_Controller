@@ -49,6 +49,8 @@ LED arrays provide feedback for the following metrics:
 1. Desired inspired oxygen proportion (FiO<sub>2</sub>)
 2. Desired airway pressure
 3. Current airway pressure
+4. Oxygen supply pressure *(optional)*
+5. Compressed air supply pressure *(optional)*
 
 
 LEDs are arranged in vertical rows, placed within clearly-deliniated labelled sections. Each LED is laballed with its discrete value. This eliminates the need for any seperate labelling or faceplate.
@@ -56,20 +58,29 @@ LEDs are arranged in vertical rows, placed within clearly-deliniated labelled se
 Provision is made on the PCB for either 5mm through-hole, 3mm through-hole or 0603 (1608 metric) surface-mount LEDs.
 
 
-### Desired inspired oxygen propoprtion
+### 1. Desired inspired oxygen propoprtion
 
 The NVS specification calls for inspired oxygen proportion (FiO<sub>2</sub>) to be set in increments of 10% over a range of 30% to 100%. An array of 8 LEDs are installed for this purpose.
 
 Feedback for actual current FiO<sub>2</sub> is not considered.
 
 
-### Desired airway pressure
+### 2. Desired airway pressure
 
-The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O. Arbitrary intervals of 5 cmH2O results in 5 LEDs.
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O. Arbitrary intervals of 5 cmH<sub>2</sub>0 results in 5 LEDs.
 
-### Actual current airway pressure
+### 3. Actual current airway pressure
 
-The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O, and for a maximum over-pressure of 40cmH<sub>2</sub>0. A pressure monitoring range of 0cmH<sub>2</sub>0 to 40cmH<sub>2</sub>0 is considered. A 9-LED array provides feedback in increments of 5cmH<sub>2</sub>0.
+The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O, and for a maximum over-pressure of 40 cmH<sub>2</sub>0. A pressure monitoring range of 0 cmH<sub>2</sub>0 to 40 cmH<sub>2</sub>0 is considered. A 9-LED array provides feedback in increments of 5 cmH<sub>2</sub>0.
+
+
+### 4. Oxygen supply pressure *(optional)*
+
+Allowance is made for the monitoring of oxygen supply pressure. A scale is not prescribed and is firmware-dependent.
+
+### 5. Compressed air supply pressure *(optional)*
+
+Allowance is made for the monitoring of compressed air supply pressure. A scale is not prescribed and is firmware-dependent.
 
 
 ## Power
