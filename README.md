@@ -16,7 +16,7 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 
 ## Monitor-only vs. Monitor and control
 
-This design can be configured in two different ways:
+This design is available in two different flavours:
 
 - Monitor only: Visually reports airway pressure, with auditory pressure loss and over-pressure alarms.
 
