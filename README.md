@@ -12,7 +12,7 @@ Inside this repository are the following resources:
 
 This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
-## Controller vs. Monitor
+## Controller vs. Monitor configurations
 
 This design can be configured in two different ways:
 
