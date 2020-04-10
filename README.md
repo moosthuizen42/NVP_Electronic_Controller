@@ -1,6 +1,6 @@
-# NVP Electronic Controller
+# NVP Electronic Monitor
 
-A highly-configurable, ready-to-manufacture electronic controller for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
+A configurable, ready-to-manufacture electronic controller for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
 
 
 Inside this repository are the following resources:
@@ -51,8 +51,6 @@ LED arrays provide feedback for the following metrics:
 1. Desired inspired oxygen proportion (FiO<sub>2</sub>)
 2. Desired airway pressure
 3. Current airway pressure
-4. Oxygen supply pressure *(optional)*
-5. Compressed air supply pressure *(optional)*
 
 
 LEDs are arranged in vertical rows, placed within clearly-deliniated labelled sections. Each LED is laballed with its discrete value. This eliminates the need for any seperate labelling or faceplate.
@@ -74,15 +72,6 @@ The NVS specification calls for airway pressure to be set within a range of 5 to
 ### 3. Actual current airway pressure
 
 The NVS specification calls for airway pressure to be set within a range of 5 to 25 cmH<sub>2</sub>O, and for a maximum over-pressure of 40 cmH<sub>2</sub>0. A pressure monitoring range of 0 cmH<sub>2</sub>0 to 40 cmH<sub>2</sub>0 is considered. A 9-LED array provides feedback in increments of 5 cmH<sub>2</sub>0.
-
-
-### 4. Oxygen supply pressure *(optional)*
-
-Allowance is made for the monitoring of oxygen supply pressure. A scale is not prescribed and is firmware-dependent.
-
-### 5. Compressed air supply pressure *(optional)*
-
-Allowance is made for the monitoring of compressed air supply pressure. A scale is not prescribed and is firmware-dependent.
 
 
 ## Power
