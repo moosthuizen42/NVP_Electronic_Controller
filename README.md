@@ -35,11 +35,12 @@ This design is available in two different flavours:
 | Powered by consumer-grade USB power bank or cell-phone charger | X | X |
 | LED display of actual airway pressure | X | X |
 | Auditory over-pressure / pressure loss alarm | X | X |
-| Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>) | | X |
-| Electrical control of inspired oxygen proportion actuator | | X |
-| Push-button input of desired continuous airway pressure | | X |
-| Gas supply on/off push-buttons | | X |
-| Electrical control of airway pressure actuator | | X |
+| Push-button input and LED display of desired FiO<sub>2</sub> | | X |
+| Pre-programmed control of FiO<sub>2</sub> actuation | | X |
+| Push-button input and LED display of desired continuous airway pressure | | X |
+| PID control of FiO<sub>2</sub> actuation | | X |
+| Gas supply on/off push-buttons and LED display | | X |
+| Gas supply on/off actuator control | | X |
 
 
 
