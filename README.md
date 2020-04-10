@@ -106,7 +106,22 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | Interface | ID | Requirement  | Applicability |
 | --------- | -- | ------------ | ------------- |
 | I.1: Oxygen supply | R.I.1 | All gas connectors and hoses must use standard non-interchangeable connectors and be colour coded according to recognised medical standards. | Not applicable to controller |
-| I.1: Oxygen supply | R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. |
+| I.1: Oxygen supply | R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. | |
+| I.1: Oxygen supply | R.I.3 | The NVS shall regulate the supplied Oxygen pressure as needed to operate
+effectively. |
+
+| I.4: Exhalent | R.I.4 | All parts coming into contact with the patient’s breath must be either disposable or able to be decontaminated between patients. | |
+| I.4: Exhalent | R.I.5 | The exhaled gas shall be filtered with an easily replaceable HMEF viral filter. | |
+| I.5: Patient physical interface and gas supply | R.I.6 | The mask or hood shall have a sealing mechanism to prevent the escape of exhaled air and fluids (to prevent contamination) | |
+| I.5: Patient physical interface and gas supply | R.I.7 | The hood/mask and all gas supply pipes shall be made from medically approved materials. | |
+| I.5: Patient physical interface and gas supply | R.I.8 | The device shall be usable with the patient in seated or lying down positions. | |
+| I.5: Patient physical interface and gas supply | R.I.9 | The hood/mask shall have an anti-asphyxiation mechanism to allow for additional ambient air to enter the mask in case the inhalation gas volume exceeds the gas supply volume. | |
+
+| I.7 | Power R.I.10 | The NVS shall connect to standard 240V, 50 Hz South African wall power socket. Only required if power interface is used. | |
+| I.7 | Power R.I.11 | If the NVS function is dependent on electrical power, it shall automatically provide backup power for a period of 30 minutes or longer in case the main power supply fails. | |
+| I.7 Compressed air | R.I.12 | The NVS compressed air inlet shall connect to a standard South African hospital wall compressed air supply point. Only required if compressed air interface is used. | |
+
+
 
 ## 
 
