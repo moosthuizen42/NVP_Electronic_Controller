@@ -19,7 +19,13 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 This design can be configured in two different ways:
 
 - Monitor only: Visually reports airway pressure, with auditory pressure loss and over-pressure alarms.
+
+![Monitor onlyoverview](/nvp_controller_overview_monitor_only.png?raw=true)
+
 - Monitor and control: Simple push-button input of target FiO<sub>2</sub> and airway pressure, actuator control
+
+![Monitor and control overview](/nvp_controller_overview.png?raw=true)
+
 
 ## Core Features
 
