@@ -170,8 +170,7 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | Ergonomics | R.O.6 | The NVS shall be easy and intuitive to use and should require minimum training. | |
 | Ergonomics | R.O.7 | The NVS shall provide controls and monitoring in a location that is convenient for the operator to use. | |
 | Ergonomics | R.O.8 | The NVS controls shall be placed in such a way that they are not adjusted inadvertently. | |
-| Ergonomics | R.O.9 | The NVS shall provide gas connection points locations that are convenient
-to connect and disconnect. | |
+| Ergonomics | R.O.9 | The NVS shall provide gas connection points locations that are convenient to connect and disconnect. | |
 | Ergonomics | R.O.14 | The NVS system shall be delivered with operating and maintenance instructions. | |
 | Reliability | R.O.10 | The NVS shall operate without failure or need for maintenance for a period of 14 days. | |
 | Maintainability | R.O.11 | Following a block of 14 days, the NVS shall be maintained to allow returning to service within 1 hour. | |
