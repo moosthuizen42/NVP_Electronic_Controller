@@ -12,16 +12,25 @@ Inside this repository are the following resources:
 
 This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
+## Controller vs. Monitor
+
+This design can be configured in two different ways:
+
+- Monitor only: Visually reports airway pressure, with pressure loss and over-pressure alarms
+- Monitor and control: 
 
 ## Core Features
+
+| Feature | Monitor only | Monitor and control |
+| ------- | ------------ | ------------------- |
+| Powered by consumer-grade USB power bank or cell-phone charger | [x] | [x] |
+| LED feedback of actual airway pressure | [x] | [x] |
 
 - Gas supply on/off push-buttons
 - Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>)
 - Push-button input of desired continuous airway pressure
-- LED feedback of actual airway pressure
 - Electrical control of inspired oxygen proportion actuator
 - Electrical control of airway pressure actuator
-- Powered by consumer-grade USB power bank or cell-phone charger
 
 
 ## Documents
