@@ -114,14 +114,23 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | I.5: Patient physical interface and gas supply | R.I.7 | The hood/mask and all gas supply pipes shall be made from medically approved materials. | |
 | I.5: Patient physical interface and gas supply | R.I.8 | The device shall be usable with the patient in seated or lying down positions. | |
 | I.5: Patient physical interface and gas supply | R.I.9 | The hood/mask shall have an anti-asphyxiation mechanism to allow for additional ambient air to enter the mask in case the inhalation gas volume exceeds the gas supply volume. | |
-
 | I.7 | Power R.I.10 | The NVS shall connect to standard 240V, 50 Hz South African wall power socket. Only required if power interface is used. | |
 | I.7 | Power R.I.11 | If the NVS function is dependent on electrical power, it shall automatically provide backup power for a period of 30 minutes or longer in case the main power supply fails. | |
 | I.7 Compressed air | R.I.12 | The NVS compressed air inlet shall connect to a standard South African hospital wall compressed air supply point. Only required if compressed air interface is used. | |
 
+## NVS functional requirements
 
+| Function | ID | Requirement | Applicability |
+| -------- | -- | ----------- | ------------- |
+| Filter inlet air | R.F.1 | The NVS shall filter the ambient air inlet to a suitable breathing air standard. | |
+| Add oxygen | R.F.2 | The NVS shall enable the operator to control the inspired oxygen proportion (FiO<sub>2</sub>) of the gas supplied to the patient to a value from 30% to 100% as set by the operator, either in 10% increment steps, or on a continuous scale, with an accuracy of +-5%. | |
+| Regulate pressure | R.F.3 | The NVS shall maintain a constant minimum positive airway pressure at all times during the breathing cycle, as set by the operator. | |
+| Regulate pressure | R.F.4 | The NVS shall enable the operator to regulate minimum positive airway pressure to a value from 5 to 25 cmH<sub>2</sub>O above ambient air pressure. | |
+| Monitor pressure | R.F.5 | The NVS shall display the achieved airway pressure. | |
+| Control ventilation | R.F.7 | The operator shall be able to turn the patient gas supply on and off (for fitting the device and taking it off). | |
+| Prevent overpressure | R.F.8 | The NVS shall have a mechanism to ensure that the patient airway is never exposed to a gas pressure of more than 40cmH<sub>2</sub>O | |
+| Pressure loss alarm | R.F.9 | The NVS should have an alarm if there is a failure of the pressurised gas supply to the mask/hood. Note that this is not a mandatory requirement, but would be an advantage. | |
 
-## 
 
 
 [a link](#pcb-mounted-pressure-monitoring)
