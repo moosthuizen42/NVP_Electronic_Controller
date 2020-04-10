@@ -41,6 +41,8 @@ The controller design outlined in this repository is based on the following docu
 ## Microcontroller
 
 
+## Pressure sensing
+
 
 ## LED feedback
 
@@ -106,37 +108,51 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | Interface | ID | Requirement  | Applicability |
 | --------- | -- | ------------ | ------------- |
 | I.1: Oxygen supply | R.I.1 | All gas connectors and hoses must use standard non-interchangeable connectors and be colour coded according to recognised medical standards. | Not applicable to controller |
-| I.1: Oxygen supply | R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. | |
+| I.1: Oxygen supply | R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. | Not applicable to controller |
 | I.1: Oxygen supply | R.I.3 | The NVS shall regulate the supplied Oxygen pressure as needed to operate effectively. | |
 | I.4: Exhalent | R.I.4 | All parts coming into contact with the patient’s breath must be either disposable or able to be decontaminated between patients. | |
-| I.4: Exhalent | R.I.5 | The exhaled gas shall be filtered with an easily replaceable HMEF viral filter. | |
-| I.5: Patient physical interface and gas supply | R.I.6 | The mask or hood shall have a sealing mechanism to prevent the escape of exhaled air and fluids (to prevent contamination) | |
-| I.5: Patient physical interface and gas supply | R.I.7 | The hood/mask and all gas supply pipes shall be made from medically approved materials. | |
-| I.5: Patient physical interface and gas supply | R.I.8 | The device shall be usable with the patient in seated or lying down positions. | |
+| I.4: Exhalent | R.I.5 | The exhaled gas shall be filtered with an easily replaceable HMEF viral filter. | Not applicable to controller |
+| I.5: Patient physical interface and gas supply | R.I.6 | The mask or hood shall have a sealing mechanism to prevent the escape of exhaled air and fluids (to prevent contamination). | Not applicable to controller |
+| I.5: Patient physical interface and gas supply | R.I.7 | The hood/mask and all gas supply pipes shall be made from medically approved materials. | Not applicable to controller |
+| I.5: Patient physical interface and gas supply | R.I.8 | The device shall be usable with the patient in seated or lying down positions. | Not applicable to controller |
 | I.5: Patient physical interface and gas supply | R.I.9 | The hood/mask shall have an anti-asphyxiation mechanism to allow for additional ambient air to enter the mask in case the inhalation gas volume exceeds the gas supply volume. | |
 | I.7 | Power R.I.10 | The NVS shall connect to standard 240V, 50 Hz South African wall power socket. Only required if power interface is used. | |
 | I.7 | Power R.I.11 | If the NVS function is dependent on electrical power, it shall automatically provide backup power for a period of 30 minutes or longer in case the main power supply fails. | |
-| I.7 Compressed air | R.I.12 | The NVS compressed air inlet shall connect to a standard South African hospital wall compressed air supply point. Only required if compressed air interface is used. | |
+| I.7 Compressed air | R.I.12 | The NVS compressed air inlet shall connect to a standard South African hospital wall compressed air supply point. Only required if compressed air interface is used. | Not applicable to controller |
 
 ## NVS functional requirements
 
 | Function | ID | Requirement | Applicability |
 | -------- | -- | ----------- | ------------- |
-| Filter inlet air | R.F.1 | The NVS shall filter the ambient air inlet to a suitable breathing air standard. | |
+| Filter inlet air | R.F.1 | The NVS shall filter the ambient air inlet to a suitable breathing air standard. | Not applicable to controller |
 | Add oxygen | R.F.2 | The NVS shall enable the operator to control the inspired oxygen proportion (FiO<sub>2</sub>) of the gas supplied to the patient to a value from 30% to 100% as set by the operator, either in 10% increment steps, or on a continuous scale, with an accuracy of +-5%. | |
 | Regulate pressure | R.F.3 | The NVS shall maintain a constant minimum positive airway pressure at all times during the breathing cycle, as set by the operator. | |
 | Regulate pressure | R.F.4 | The NVS shall enable the operator to regulate minimum positive airway pressure to a value from 5 to 25 cmH<sub>2</sub>O above ambient air pressure. | |
 | Monitor pressure | R.F.5 | The NVS shall display the achieved airway pressure. | |
 | Control ventilation | R.F.7 | The operator shall be able to turn the patient gas supply on and off (for fitting the device and taking it off). | |
-| Prevent overpressure | R.F.8 | The NVS shall have a mechanism to ensure that the patient airway is never exposed to a gas pressure of more than 40cmH<sub>2</sub>O | |
+| Prevent overpressure | R.F.8 | The NVS shall have a mechanism to ensure that the patient airway is never exposed to a gas pressure of more than 40cmH<sub>2</sub>O. | |
 | Pressure loss alarm | R.F.9 | The NVS should have an alarm if there is a failure of the pressurised gas supply to the mask/hood. Note that this is not a mandatory requirement, but would be an advantage. | |
 
 
+## NVS non-functional requirements
 
-[a link](#pcb-mounted-pressure-monitoring)
-
-
-
-# PCB mounted pressure monitoring
+| Category | ID | Requirement | Applicability |
+| -------- | -- | ----------- | ------------- |
+| Electromagnetic compatibility | R.O.1 | The NVS shall comply with IEC 60601-1-2 or equivalent EMC standard. Only applicable if electronic components are used. | |
+| Sanitation | R.O.2 | All external surfaces must be able to be sanitised, without damage to the device. Cleaning would be by healthcare workers manually wiping using an approved surface wipe with disinfectant or cloths and approved surface cleaning liquid. | |
+| Labelling | R.O.3 | The NVS shall provide clear permanent labelling for all external interfaces. | |
+| Labelling | R.O.4 | The NVS shall provide clear permanent labelling for all monitor and control points. | |
+| Ergonomics | R.O.5 | The NVS shall be floor standing and mounted on a wheel base that is easy to move, and bed mountable to standard hospital bed configuration. | |
+| Ergonomics | R.O.6 | The NVS shall be easy and intuitive to use and should require minimum training. | |
+| Ergonomics | R.O.7 | The NVS shall provide controls and monitoring in a location that is convenient for the operator to use. | |
+| Ergonomics | R.O.8 | The NVS controls shall be placed in such a way that they are not adjusted inadvertently. | |
+| Ergonomics | R.O.9 | The NVS shall provide gas connection points locations that are convenient
+to connect and disconnect. | |
+| Ergonomics | R.O.14 | The NVS system shall be delivered with operating and maintenance instructions. | |
+| Reliability | R.O.10 | The NVS shall operate without failure or need for maintenance for a period of 14 days. | |
+| Maintainability | R.O.11 | Following a block of 14 days, the NVS shall be maintained to allow returning to service within 1 hour. | |
+| Maintainability | R.O.12 | Consumable spares (o-rings, seals, washers, filters) shall be provided with the NVS to allow a 1 hour turnaround time and a total of 10 blocks of use. | |
+| Maintainability | R.O.15 | The NVS shall be delivered with operating and maintenance instructions. | |
+| Manufacturability | R.O.13 | The NVS shall be manufactured using parts and materials that are readily available in large quantities on the commercial market or can be manufactured locally in South Africa. | |
 
 
