@@ -17,7 +17,7 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 This design can be configured in two different ways:
 
 - Monitor only: Visually reports airway pressure, with auditory pressure loss and over-pressure alarms.
-- Monitor and control: Digital input of target FiO<sub>2</sub> and airway pressure, actuator control
+- Monitor and control: Simple push-button input of target FiO<sub>2</sub> and airway pressure, actuator control
 
 ## Core Features
 
