@@ -2,7 +2,7 @@
 
 # NVP Electronic Controller
 
-A configurable, ready-to-manufacture electronic controller for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
+A configurable, ready-to-manufacture electronic controller frdign for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
 
 
 Inside this repository are the following resources:
