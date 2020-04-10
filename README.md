@@ -14,7 +14,7 @@ Inside this repository are the following resources:
 
 This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
-## Controller vs. Monitor configurations
+## Monitor-only vs. Monitor and control
 
 This design can be configured in two different ways:
 
@@ -24,7 +24,7 @@ This design can be configured in two different ways:
 
 - Monitor and control: Simple push-button input of target FiO<sub>2</sub> and airway pressure, actuator control
 
-![Monitor and control overview](/nvp_controller_overview.png?raw=true)
+![Monitor and control overview](/nvp_controller_overview_monitor_and_control.png?raw=true)
 
 
 ## Core Features
