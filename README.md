@@ -14,6 +14,7 @@ Inside this repository are the following resources:
 
 This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
+
 ## Monitor-only vs. Monitor and control
 
 This design is available in two different flavours:
@@ -33,11 +34,13 @@ This design is available in two different flavours:
 | ------- | :----------: | :-----------------: |
 | Powered by consumer-grade USB power bank or cell-phone charger | X | X |
 | LED display of actual airway pressure | X | X |
+| Auditory over-pressure / pressure loss alarm | X | X |
 | Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>) | | X |
 | Electrical control of inspired oxygen proportion actuator | | X |
 | Push-button input of desired continuous airway pressure | | X |
 | Gas supply on/off push-buttons | | X |
 | Electrical control of airway pressure actuator | | X |
+
 
 
 ## Documents
