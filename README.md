@@ -12,7 +12,7 @@ Inside this repository are the following resources:
 - Firmware for an 8-bit Microchip microcontroller
 
 
-This design is free for anyone to use without restriction or acknowledgement. The authors request that any additional design work on the basis of this controller is open-sourced as well.
+This design is free for anyone to use without restriction. The authors request that any additional design work on the basis of this controller is open-sourced as well.
 
 
 ## Monitor-only vs. Monitor and control
