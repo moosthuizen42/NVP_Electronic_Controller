@@ -22,7 +22,7 @@ This design can be configured in two different ways:
 ## Core Features
 
 | Feature | Monitor only | Monitor and control |
-| ------- | ------------ | ------------------- |
+| ------- | :----------: | :-----------------: |
 | Powered by consumer-grade USB power bank or cell-phone charger | X | X |
 | LED display of actual airway pressure | X | X |
 | Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>) | | X |
