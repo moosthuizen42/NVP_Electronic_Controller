@@ -16,7 +16,7 @@ This design is free for anyone to use without restriction or acknowledgement. Th
 
 This design can be configured in two different ways:
 
-- Monitor only: Visually reports airway pressure, with pressure loss and over-pressure alarms
+- Monitor only: Visually reports airway pressure, with auditory pressure loss and over-pressure alarms.
 - Monitor and control: 
 
 ## Core Features
@@ -25,12 +25,11 @@ This design can be configured in two different ways:
 | ------- | ------------ | ------------------- |
 | Powered by consumer-grade USB power bank or cell-phone charger | X | X |
 | LED display of actual airway pressure | X | X |
-
-- Gas supply on/off push-buttons
-- Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>)
-- Push-button input of desired continuous airway pressure
-- Electrical control of inspired oxygen proportion actuator
-- Electrical control of airway pressure actuator
+| Push-button input of desired inspired oxygen proportion (FiO<sub>2</sub>) | | X |
+| Electrical control of inspired oxygen proportion actuator | | X |
+| Push-button input of desired continuous airway pressure | | X |
+| Gas supply on/off push-buttons | | X |
+| Electrical control of airway pressure actuator | | X |
 
 
 ## Documents
