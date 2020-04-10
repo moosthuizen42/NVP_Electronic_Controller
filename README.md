@@ -107,9 +107,7 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | --------- | -- | ------------ | ------------- |
 | I.1: Oxygen supply | R.I.1 | All gas connectors and hoses must use standard non-interchangeable connectors and be colour coded according to recognised medical standards. | Not applicable to controller |
 | I.1: Oxygen supply | R.I.2 | The NVS Oxygen inlet shall connect to standard South African hospital wall Oxygen supply or Oxygen bottle interfaces. | |
-| I.1: Oxygen supply | R.I.3 | The NVS shall regulate the supplied Oxygen pressure as needed to operate
-effectively. |
-
+| I.1: Oxygen supply | R.I.3 | The NVS shall regulate the supplied Oxygen pressure as needed to operate effectively. | |
 | I.4: Exhalent | R.I.4 | All parts coming into contact with the patient’s breath must be either disposable or able to be decontaminated between patients. | |
 | I.4: Exhalent | R.I.5 | The exhaled gas shall be filtered with an easily replaceable HMEF viral filter. | |
 | I.5: Patient physical interface and gas supply | R.I.6 | The mask or hood shall have a sealing mechanism to prevent the escape of exhaled air and fluids (to prevent contamination) | |
