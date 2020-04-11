@@ -66,11 +66,13 @@ The controller design outlined in this repository is based on the following docu
 
 ## LED displays
 
-LED arrays provide feedback for the following metrics:
+7-segment provide feedback for the following metrics:
 
 1. Desired inspired oxygen proportion (FiO<sub>2</sub>)
 2. Desired airway pressure
 3. Current airway pressure
+
+Additionally, discrete LEDs can be used to 
 
 
 LEDs are arranged in vertical rows, placed within clearly-deliniated labelled sections. Each LED is laballed with its discrete value. This eliminates the need for any seperate labelling or faceplate.
