@@ -129,7 +129,8 @@ This design is available in two different flavours:
 ## Pressure sensing
 
 1. MS5607
-  - [MS5607-02BA03 Datasheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English)
+    - [MS5607-02BA03 Datasheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English)
+    - <a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English" target="_blank">MS5607-02BA03 Datasheet</a>
 2. BMP338
  - [BMP388 Datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP388-DS001.pdf)
 
