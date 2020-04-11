@@ -18,13 +18,17 @@ Inside this repository are the following resources:
 
 
 
-## Ready to immediate manufacture
+## Ready for immediate manufacture
 
 - Implemented on standard, 2-layer PCB
+-- Abudant local capability to make these kinds of boards
 - Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
+-- SMT-only design for volume manufacture is in the pipeline
 - Relies mostly on simple, widely-available components which can be found in any hobby store or lab.
-- Clear, user-friendly on-PCB labelling of controls.
+- Clear, user-friendly, multi-lingual labelling of controls on PCB.
+-- Enclosure can initially be entirely omitted.
 - Breakouts allow for use with any arbitrary microcontroller or external electronics.
+-- On-PCB 28-pin DIL mounting point for PIC16F15354 or many others
 
 
 ## NVP
