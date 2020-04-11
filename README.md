@@ -25,6 +25,7 @@ Inside this repository are the following resources:
 - Relies mostly on simple, widely-available components which can be found in any hobby store or lab.
 - User-friendly, multi-lingual labelling of controls on PCB.
   - Enclosure can initially be entirely omitted.
+  - Screenshot of top-layer silk screen below:
 
 ![Operator interface](/nvp_controller_operator_interface.png)
 
