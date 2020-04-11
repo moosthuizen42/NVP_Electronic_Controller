@@ -1,6 +1,7 @@
+### <i>Last updated 11/04/2020</i>
 # NVP Electronic Controller
 
-### Last updated 11/04/2020
+
 
 A configurable, ready-to-manufacture controller hardware design for use in low-cost CPAP ventilators. It incorporates an operator interface, pressure-sensing mechanism, and control of arbitrary actuators.
 
