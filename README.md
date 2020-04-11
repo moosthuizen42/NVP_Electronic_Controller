@@ -31,17 +31,17 @@ Inside this repository are the following resources:
 
 ## Configurable by implementer
 
-This design is intended to be debug board-like and highly-confirgurable, such that hardware production and procurement can commence while firmware or external control electronics is developed.
+This design is intended to be debug board-like and highly-confirgurable, such that hardware production and procurement can commence while firmware or external control electronics is still being developed.
 
 - Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
   - SMT-only design (for volume manufacture) is in the pipeline.
 - Breakouts allow for use with any arbitrary microcontroller or external electronics.
   - On-PCB 28-pin DIL mounting point for PIC16F15354 or many others.
-- Choice between two popular pressure-sensing (#pressure-sensing) ICs without modification
-  - Built-in ADC and digital filtering simplifies firmware considerably
+- Choice between two popular pressure-sensing (#pressure-sensing) ICs without modification.
+  - Built-in ADC and digital filtering simplifies firmware considerably.
 
 
-## NVP
+## National Ventilator Project
 
 This design is intended for use in a Non-invasive Ventilator System (NVS) which adheres to the specifications laid out in the NVP Call for Proposals of 4 April 2020. See [Documents](#documents) for details.
 
