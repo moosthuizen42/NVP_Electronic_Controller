@@ -20,20 +20,26 @@ Inside this repository are the following resources:
 
 ## Ready for immediate manufacture
 
-- Implemented on standard, 2-layer PCB
--- Abudant local capability to make these kinds of boards
-- Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
--- SMT-only design for volume manufacture is in the pipeline
+- Implemented on standard, 2-layer PCB.
+-- Abudant local capability to make these kinds of boards.
 - Relies mostly on simple, widely-available components which can be found in any hobby store or lab.
 - Clear, user-friendly, multi-lingual labelling of controls on PCB.
 -- Enclosure can initially be entirely omitted.
+
+![Opeartor interface](/nvp_controller_operator_interface.png)
+
+
+## Configurable by implementer
+
+- Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
+-- SMT-only design for volume manufacture is in the pipeline.
 - Breakouts allow for use with any arbitrary microcontroller or external electronics.
--- On-PCB 28-pin DIL mounting point for PIC16F15354 or many others
+-- On-PCB 28-pin DIL mounting point for PIC16F15354 or many others.
 
 
 ## NVP
 
-This design is intended for use in a Non-invasive Ventilator System (NVS) which adheres to the specifications laid out in the NVP Call for Proposals of 4 April 2020. See [Documents](documents) for details.
+This design is intended for use in a Non-invasive Ventilator System (NVS) which adheres to the specifications laid out in the NVP Call for Proposals of 4 April 2020. See [Documents](#documents) for details.
 
 The authors of this repository are not affiliated with the NVP or SARAO.
 
@@ -68,7 +74,7 @@ This design is free for anyone to use without restriction. In the spirit of disr
 
 This design is <b>provided as is</b> and without warranty.
 
-Contributions are welcome. Feedback is appreciated.
+Contributions are welcome. Feedback is appreciated. Go to the second tab above "Issues" Create an issue (requires a free Github account)
 
 
 
@@ -81,11 +87,11 @@ This design is available in two different flavours:
 
 - Monitor only: Visually reports airway pressure, with auditory pressure loss and over-pressure alarms.
 
-![Monitor onlyoverview](/nvp_controller_overview_monitor_only.png?raw=true)
+![Monitor onlyoverview](/nvp_controller_overview_monitor_only.png)
 
 - Monitor and control: Simple push-button input of target FiO<sub>2</sub> and airway pressure, actuator control
 
-![Monitor and control overview](/nvp_controller_overview_monitor_and_control.png?raw=true)
+![Monitor and control overview](/nvp_controller_overview_monitor_and_control.png)
 
 
 ## Core Features
