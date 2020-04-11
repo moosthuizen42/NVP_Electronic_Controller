@@ -10,9 +10,9 @@ This design is intended to accelerate development efforts towards the National V
 
 Inside this repository are the following resources:
 
-- An overview of the controller hardware design (this page)
-- Printed circuit boards (PCB) designs: Gerber files and EAGLE project
-- Bill of Materials
+1. An overview of the controller hardware design (this page)
+2. Printed circuit boards (PCB) designs: Gerber files and EAGLE project
+3. Bill of Materials
 - <u>Firmware not included</u> (sample firmware for 8-bit PIC microcontrollers is on its way)
 
 
