@@ -1,9 +1,9 @@
-### <i>Last updated 11/04/2020</i>
+### Last updated 11/04/2020
 # NVS Electronic Controller
 
 
 
-A configurable, ready-to-manufacture controller hardware design for use in low-cost CPAP ventilators. It incorporates an operator interface, pressure-sensing mechanism, and control of arbitrary actuators.
+A configurable, ready-to-manufacture controller hardware design for use in low-cost CPAP ventilators. It incorporates an operator interface, pressure-sensing mechanism, and control of arbitrary actuators. It is powered by a standard 5V USB power bank or cell-phone charger.
 
 This design is intended to accelerate development efforts towards the National Ventilator Project (NVP). Use directly as a ventilator controller or monitor, use with modification, or use as a reference design. 
 
@@ -14,6 +14,8 @@ Inside this repository are the following resources:
 - Printed circuit boards (PCB) designs: Gerber files and EAGLE project
 - Bill of Materials
 - <u>Firmware  not included</u> (sample firmware for 8-bit PIC microcontrollers is on its way)
+
+
 
 
 ## Ready to immediate manufacture
@@ -32,9 +34,19 @@ This design is intended for use in a Non-invasive Ventilator System (NVS) which 
 The authors of this repository are not affiliated with the NVP or SARAO.
 
 
-## Schedule
+## Timeline
 
-Improvement and expansion of this design is ongoing. Feedback is appreciated. 
+Improvement and expansion of this design is ongoing.
+
+Ongoing work and expected completion dates are summarized in the table below.
+
+| Description | Completion |
+| ----------- | ---------- |
+| Initial release | 11 April 2020 |
+| New version of PCB that includes a selection motor drivers | 13 April 2020 |
+| Monitor-only variant of PCB | 16 April 2020 |
+| Sample firmware for 8-bit PIC microcontroller | 18 April 2020 |
+| <b>Will be determind based on feedback</b> | Future |
 
 
 
@@ -53,6 +65,8 @@ More information about the NVP can be found at the links below.
 This design is free for anyone to use without restriction. In the spirit of disregard for personal gain, the authors request that any additional work, done on the basis of this, be seriously considered for open-sourcing as well.
 
 This design is <b>provided as is</b> and without warranty.
+
+Contributions are welcome. Feedback is appreciated.
 
 
 
