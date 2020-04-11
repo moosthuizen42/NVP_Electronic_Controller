@@ -37,8 +37,8 @@ This design is intended to be debug board-like and highly-confirgurable, such th
   - SMT-only design (for volume manufacture) is in the pipeline.
 - Breakouts allow for use with any arbitrary microcontroller or external electronics.
   - On-PCB 28-pin DIL mounting point for PIC16F15354 or many others.
-- Choice between two popular pressure-sensing ICs without modification
-  - Built-in 
+- Choice between two popular pressure-sensing (#pressure-sensing) ICs without modification
+  - Built-in ADC and digital filtering simplifies firmware considerably
 
 
 ## NVP
