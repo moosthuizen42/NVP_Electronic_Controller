@@ -23,7 +23,7 @@ Inside this repository are the following resources:
 - Implemented on standard, 2-layer PCB.
   - Abudant local capability to make these kinds of boards.
 - Relies mostly on simple, widely-available components which can be found in any hobby store or lab.
-- Clear, user-friendly, multi-lingual labelling of controls on PCB.
+- User-friendly, multi-lingual labelling of controls on PCB.
   - Enclosure can initially be entirely omitted.
 
 ![Operator interface](/nvp_controller_operator_interface.png)
