@@ -1,18 +1,61 @@
-# WORK IN PROGRESS
-
 # NVP Electronic Controller
 
-A configurable, ready-to-manufacture electronic controller frdign for use in low-cost CPAP ventilators. This design adheres to the specifications laid out in the National Ventilator Project (NVP) Call for Proposals of 4 April 2020. The authors are not affiliated with the NVP.
+### Last updated 11/04/2020
+
+A configurable, ready-to-manufacture controller hardware design for use in low-cost CPAP ventilators. It incorporates an operator interface, pressure-sensing mechanism, and control of arbitrary actuators.
+
+This design is intended to accelerate development efforts towards the National Ventilator Project (NVP). Use directly as a ventilator controller or monitor, use with modification, or use as a reference design. 
 
 
 Inside this repository are the following resources:
 
-- Printed circuit boards (PCB) designs, provided both as Gerber files and an Eagle project
+- An overview of the controller hardware design (this page)
+- Printed circuit boards (PCB) designs: Gerber files and EAGLE project
 - Bill of Materials
-- Firmware for an 8-bit Microchip microcontroller
+- <u>Firmware  not included</u> (sample firmware for 8-bit PIC microcontrollers is on its way)
 
 
-This design is free for anyone to use without restriction. and is <b>provided as is</b>. The authors request that any additional design work on the basis of this controller be open-sourced as well.
+## Ready to immediate manufacture
+
+- Implemented on standard, 2-layer PCB
+- Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
+- Relies mostly on simple, widely-available components which can be found in any hobby store or lab.
+- Clear, user-friendly on-PCB labelling of controls.
+- Breakouts allow for use with any arbitrary microcontroller or external electronics.
+
+
+## NVP
+
+This design is intended for use in a Non-invasive Ventilator System (NVS) which adheres to the specifications laid out in the NVP Call for Proposals of 4 April 2020. See [Documents](documents) for details.
+
+The authors of this repository are not affiliated with the NVP or SARAO.
+
+
+## Schedule
+
+Improvement and expansion of this design is ongoing. Feedback is appreciated. 
+
+
+
+
+
+## Documents
+
+More information about the NVP can be found at the links below.
+
+1. [Media release - SARAO mandated to manage the production of respiratory ventilators](https://www.sarao.ac.za/media-releases/sarao-mandated-to-manage-the-production-of-respiratory-ventilators/)
+1. [National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
+
+
+## Notes and acknowledgements
+
+This design is free for anyone to use without restriction. In the spirit of disregard for personal gain, the authors request that any additional work, done on the basis of this, be seriously considered for open-sourcing as well.
+
+This design is <b>provided as is</b> and without warranty.
+
+
+
+# Overview of design
 
 
 ## Monitor-only vs. Monitor and control
@@ -44,12 +87,7 @@ This design is available in two different flavours:
 
 
 
-## Documents
 
-The controller design outlined in this repository is based on the following documentation:
-
-1. [National Ventilator Program (NVP) Call for Proposals (CFP)](http://www.thedti.gov.za/news2020/CFP_NVP.pdf)
-2. 
 
 
 
