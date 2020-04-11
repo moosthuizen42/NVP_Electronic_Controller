@@ -74,7 +74,7 @@ This design is free for anyone to use without restriction. In the spirit of disr
 
 This design is <b>provided as is</b> and without warranty.
 
-Contributions are welcome. Feedback is appreciated. Go to the second tab above "Issues" Create an issue (requires a free Github account)
+Contributions are welcome. Feedback is appreciated. Go to the second tab above ("Issues") and create a new issue. This requires a free Github account.
 
 
 
