@@ -42,7 +42,7 @@ The authors of this repository are not affiliated with the NVP or SARAO.
 
 Improvement and expansion of this design is ongoing. Expected completion dates are summarized in the table below.
 
-| Description | Completion |
+| Description | Planned date |
 | ----------- | ---------- |
 | Initial release | 11 April 2020 |
 | New version of PCB that includes a selection motor drivers | 13 April 2020 |
