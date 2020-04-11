@@ -26,7 +26,7 @@ Inside this repository are the following resources:
   - Enclosure can initially be entirely omitted.
   - Screenshot of top-layer silk screen below:
 
-![Operator interface](/nvp_controller_operator_interface.png)
+![Operator interface](/nvp_controller_operator_interace.png)
 
 
 ## Configurable by implementer
