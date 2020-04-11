@@ -32,10 +32,14 @@ Inside this repository are the following resources:
 
 ## Configurable by implementer
 
+This design is intended to be debug board-like and highly-confirgurable, such that hardware production and procurement can commence while firmware or external control electronics is developed.
+
 - Allowance for either through-hole (THT) or surface-mount (SMT) variants for most components - use whichever is easier/quicker.
   - SMT-only design (for volume manufacture) is in the pipeline.
 - Breakouts allow for use with any arbitrary microcontroller or external electronics.
   - On-PCB 28-pin DIL mounting point for PIC16F15354 or many others.
+- Choice between two popular pressure-sensing ICs without modification
+  - Built-in 
 
 
 ## NVP
@@ -75,7 +79,7 @@ This design is free for anyone to use without restriction. In the spirit of disr
 
 This design is <b>provided as is</b> and without warranty.
 
-Contributions are welcome. Feedback is appreciated. Go to the second tab above ("Issues") and create a new issue. This requires a free Github account.
+Contributions are welcome, feedback is appreciated and questions will be responded to. To get in touch, go to the second tab above ("Issues") and create a new issue. This requires a free Github account.
 
 
 
@@ -124,6 +128,11 @@ This design is available in two different flavours:
 
 
 ## Pressure sensing
+
+1. MS5607
+  - [MS5607-02BA03 Datasheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English)
+2. BMP338
+ - [BMP388 Datasheet](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP388-DS001.pdf)
 
 
 ## LED displays
@@ -242,4 +251,6 @@ A back-up power period of 30 minutes or more is given by the NVS requirement spe
 | Maintainability | R.O.15 | The NVS shall be delivered with operating and maintenance instructions. | |
 | Manufacturability | R.O.13 | The NVS shall be manufactured using parts and materials that are readily available in large quantities on the commercial market or can be manufactured locally in South Africa. | |
 
+# Questions and feedback
 
+Contributions are welcome, feedback is appreciated and questions will be responded to. To get in touch, go to the second tab above ("Issues") and create a new issue. This requires a free Github account.
