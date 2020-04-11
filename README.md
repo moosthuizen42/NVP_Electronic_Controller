@@ -13,7 +13,7 @@ Inside this repository are the following resources:
 - An overview of the controller hardware design (this page)
 - Printed circuit boards (PCB) designs: Gerber files and EAGLE project
 - Bill of Materials
-- <u>Firmware  not included</u> (sample firmware for 8-bit PIC microcontrollers is on its way)
+- <u>Firmware not included</u> (sample firmware for 8-bit PIC microcontrollers is on its way)
 
 
 
@@ -36,9 +36,7 @@ The authors of this repository are not affiliated with the NVP or SARAO.
 
 ## Timeline
 
-Improvement and expansion of this design is ongoing.
-
-Ongoing work and expected completion dates are summarized in the table below.
+Improvement and expansion of this design is ongoing. Expected completion dates are summarized in the table below.
 
 | Description | Completion |
 | ----------- | ---------- |
@@ -46,7 +44,7 @@ Ongoing work and expected completion dates are summarized in the table below.
 | New version of PCB that includes a selection motor drivers | 13 April 2020 |
 | Monitor-only variant of PCB | 16 April 2020 |
 | Sample firmware for 8-bit PIC microcontroller | 18 April 2020 |
-| <b>Will be determind based on feedback</b> | Future |
+| Will be determind based on feedback | <b>Future</b> |
 
 
 
